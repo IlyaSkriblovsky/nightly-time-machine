@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ExitTimeOut</key>
+	<integer>120</integer>
+	<key>Label</key>
+	<string>local.nightly-time-machine</string>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Library/PrivilegedHelperTools/local.nightly-time-machine/Nightly Time Machine.app/Contents/MacOS/NightlyTimeMachine</string>
+	</array>
+	<key>StandardErrorPath</key>
+	<string>/var/log/local.nightly-time-machine.log</string>
+	<key>StandardOutPath</key>
+	<string>/var/log/local.nightly-time-machine.log</string>
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Hour</key>
+		<integer>2</integer>
+		<key>Minute</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>
